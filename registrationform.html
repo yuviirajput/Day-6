@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="#style.css">
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(backimage.jpg);
+    background-size: 100%;
+    background-position: fixed;
+
+    
+}
+div.main{
+    width: 400px;
+    margin:100px auto;
+    padding-left: 600px;
+    
+}
+
+h1{
+    text-align:left;
+    padding-left: 100px;
+}
+#name{
+    background-color: lightcoral;
+}
+a{
+    background-color: lightcoral;
+    border: 3px solid;
+}
+div.register{
+    background-color: aqua;
+    text-align: center;
+}
+
+    </style>
+    
+   
+</head>
+<body>
+    <div class="main">
+    <div class="register">
+    <h1>Register Here</h1>
+    <form id="register" method="post">
+    <label>First Name: </label>
+    <br>
+    <input type="text" name="fname"  id="name" placeholder="Enter your First name">
+    <br><br>
+    <label>Last Name: </label>
+    <br>
+
+    <input type="text" name="fname"  id="name" placeholder="Enter your last name">
+    <br><br>
+    <label>Your age : </label>
+    <br>
+    <input type="number" name="age"  id="name" placeholder="How old are you?">
+    <br><br>
+    <label>Email : </label>
+    <br>
+    <input type="email" name="email"  id="name" placeholder="Enter your Email">
+    <br><br>
+    <label>Gender : </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender"  id="male">
+    &nbsp;
+    <span id="male"> Male</span>
+    &nbsp;&nbsp;&nbsp;
+    <input type="radio" name="gender"  id="female">
+    &nbsp;
+    <span id="female"> Female</span>
+    <br><br>
+    <label>Know language : </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="lang"  id="hindi">
+    &nbsp;
+    <span id="hindi">Hindi</span>
+    &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="lang"  id="eng">
+    &nbsp;
+    <span id="eng">English</span>
+    <br><br>
+    
+    <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">submit</a>
+    </form>
+    </div>
+    </div>
+    </body>
+</html>
